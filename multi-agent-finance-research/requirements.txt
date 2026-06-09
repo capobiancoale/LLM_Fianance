@@ -1,0 +1,44 @@
+# =============================================================================
+# Multi-Agent Company & Finance Research Assistant — dependencies
+# Python 3.10+ recommended
+# =============================================================================
+
+# --- LangChain / LangGraph core (agent orchestration) ---
+langchain>=0.2.0
+langchain-core>=0.2.0
+langgraph>=0.1.0
+langchain-text-splitters>=0.2.0
+
+# --- LLM provider: Google Gemini (same family as the course reference) ---
+langchain-google-genai>=1.0.0
+google-generativeai>=0.5.0
+
+# --- Vector store + embeddings for the Document-Q&A (RAG) agent ---
+langchain-chroma>=0.1.0
+chromadb>=0.5.0
+# Local embeddings (default backend) — keeps RAG off the Gemini free-tier quota.
+langchain-huggingface>=0.1.0
+sentence-transformers>=2.6.0
+
+# --- Web-research agent: keyless live search ---
+ddgs>=6.0.0
+
+# --- Data-analyst agent ---
+pandas>=2.0.0
+numpy>=1.24.0
+tabulate>=0.9.0
+
+# --- Web scraping for the knowledge base (reused from course reference) ---
+aiohttp>=3.8.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# --- Configuration / utilities ---
+python-dotenv>=1.0.0
+
+# --- Web interface ---
+streamlit>=1.30.0
+
+# --- Notebook (reproducible demo) ---
+jupyter>=1.0.0
+ipykernel>=6.0.0

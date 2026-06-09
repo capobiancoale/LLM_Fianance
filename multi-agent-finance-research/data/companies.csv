@@ -1,0 +1,26 @@
+company,ticker,sector,country,founded,employees,revenue_usd_b,net_income_usd_b,market_cap_usd_b
+Apple,AAPL,Technology,United States,1976,161000,383.3,97.0,2900
+Microsoft,MSFT,Technology,United States,1975,221000,211.9,72.4,2800
+Amazon,AMZN,Consumer Discretionary,United States,1994,1525000,574.8,30.4,1500
+Alphabet,GOOGL,Communication Services,United States,1998,182000,307.4,73.8,1700
+Nvidia,NVDA,Technology,United States,1993,29600,60.9,29.8,2200
+Tesla,TSLA,Consumer Discretionary,United States,2003,140000,96.8,15.0,800
+Meta Platforms,META,Communication Services,United States,2004,67000,134.9,39.1,900
+Berkshire Hathaway,BRK.B,Financials,United States,1839,396000,364.5,96.2,800
+JPMorgan Chase,JPM,Financials,United States,1799,293700,158.1,49.6,500
+Visa,V,Financials,United States,1958,28800,32.7,17.3,500
+Walmart,WMT,Consumer Staples,United States,1962,2100000,648.1,15.5,430
+ExxonMobil,XOM,Energy,United States,1999,62000,344.6,36.0,450
+UnitedHealth Group,UNH,Health Care,United States,1977,440000,371.6,22.4,460
+Johnson & Johnson,JNJ,Health Care,United States,1886,134000,85.2,35.2,380
+Procter & Gamble,PG,Consumer Staples,United States,1837,107000,82.0,14.7,350
+Samsung Electronics,005930.KS,Technology,South Korea,1969,267800,198.0,11.0,370
+TSMC,TSM,Technology,Taiwan,1987,76800,69.3,26.9,600
+Toyota,TM,Consumer Discretionary,Japan,1937,375000,305.0,32.0,300
+Nestle,NSRGY,Consumer Staples,Switzerland,1866,270000,103.0,12.0,320
+LVMH,LVMUY,Consumer Discretionary,France,1987,196000,94.0,17.0,400
+ASML,ASML,Technology,Netherlands,1984,39000,30.0,8.0,350
+Saudi Aramco,2222.SR,Energy,Saudi Arabia,1933,70000,440.0,121.0,2000
+Tencent,TCEHY,Communication Services,China,1998,105000,86.0,16.0,380
+Alibaba,BABA,Consumer Discretionary,China,1999,219000,130.0,10.0,180
+Coca-Cola,KO,Consumer Staples,United States,1892,79100,45.8,10.7,260

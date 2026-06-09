@@ -1,0 +1,28 @@
+{
+  "description": "Labeled evaluation set for the multi-agent finance assistant. Each item carries the expected supervisor route. Document-Q&A items add a gold Wikipedia source (for retrieval metrics); Data-Analyst items add a deterministic ground-truth answer computed directly from data/companies.csv (for objective correctness).",
+  "items": [
+    {"id": "doc01", "query": "What is a price-earnings ratio?", "expected_agent": "document_qa", "gold_source": "Price–earnings ratio"},
+    {"id": "doc02", "query": "What does Nvidia primarily design and sell?", "expected_agent": "document_qa", "gold_source": "Nvidia"},
+    {"id": "doc03", "query": "What is an initial public offering?", "expected_agent": "document_qa", "gold_source": "Initial public offering"},
+    {"id": "doc04", "query": "Describe Amazon's main business segments.", "expected_agent": "document_qa", "gold_source": "Amazon (company)"},
+    {"id": "doc05", "query": "What is market capitalization?", "expected_agent": "document_qa", "gold_source": "Market capitalization"},
+    {"id": "doc06", "query": "What is an exchange-traded fund?", "expected_agent": "document_qa", "gold_source": "Exchange-traded fund"},
+    {"id": "doc07", "query": "What kind of company is Meta Platforms?", "expected_agent": "document_qa", "gold_source": "Meta Platforms"},
+
+    {"id": "ana01", "query": "Which company has the highest market capitalization in the dataset?", "expected_agent": "data_analyst", "ground_truth": "Apple"},
+    {"id": "ana02", "query": "Which company in the dataset employs the most people?", "expected_agent": "data_analyst", "ground_truth": "Walmart"},
+    {"id": "ana03", "query": "Which sector has the highest total revenue across the dataset?", "expected_agent": "data_analyst", "ground_truth": "Consumer Discretionary"},
+    {"id": "ana04", "query": "Which company has the highest net income in the dataset?", "expected_agent": "data_analyst", "ground_truth": "Saudi Aramco"},
+    {"id": "ana05", "query": "What is the oldest company in the dataset by founding year?", "expected_agent": "data_analyst", "ground_truth": "JPMorgan Chase"},
+    {"id": "ana06", "query": "How many Technology-sector companies are in the dataset?", "expected_agent": "data_analyst", "ground_truth": "6"},
+    {"id": "ana07", "query": "Which company has the highest annual revenue in the dataset?", "expected_agent": "data_analyst", "ground_truth": "Walmart"},
+
+    {"id": "web01", "query": "What is Apple's stock price today?", "expected_agent": "web_research"},
+    {"id": "web02", "query": "What are the latest news about Nvidia this week?", "expected_agent": "web_research"},
+    {"id": "web03", "query": "Who is the current CEO of Tesla right now?", "expected_agent": "web_research"},
+    {"id": "web04", "query": "What were Microsoft's most recent quarterly earnings?", "expected_agent": "web_research"},
+    {"id": "web05", "query": "What is the latest US inflation rate?", "expected_agent": "web_research"},
+    {"id": "web06", "query": "What recent acquisitions has Amazon announced lately?", "expected_agent": "web_research"},
+    {"id": "web07", "query": "What is the current Federal Reserve interest rate?", "expected_agent": "web_research"}
+  ]
+}
